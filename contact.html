@@ -5,66 +5,129 @@
   <meta charset="UTF-8">
   <title>Contact | Your Name</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+
+  /* NavBar style */
+
+    .containerNav {
+        margin-right: 18%;
+        }
+    .sharlin {
+        margin-left: 15%;
+        font-size: 42px !important;
+        }
+
+    .customShar {
+        font-size: xx-large !important;
+        }
+    .navbar-brand {
+        font-size: large;
+        }
+    .sharlin {
+        font-family:'Georgia', Times, Times New Roman, serif;
+        }
+
+    /*Contact me container style*/
+    .container2{
+      margin-left: 15%;
+      margin-top: 1.5%;
+      margin-right: 11%;
+      width: 68.6%;
+    }
+
+    .ContactMe {
+      font-family:'Georgia', Times, Times New Roman, serif;
+      margin-left: -2%;
+      font-size:medium !important;
+    }
+     /*footer style */
+    .border-top {
+       border-top: 7px solid #0d99ac!important;
+          }
+        
+        </style>
 </head>
 
 <body>
+    <div class="containerfull">
+        <div class="container1">
+          <header class="masthead text-center">
+              <nav class="navbar navbar-light bg-light">
+                <div class= sharlin>
+                  <a class="navbar-brand text-white p-3 bg-info font-weight-bolder customShar" href="index.html">Sharlin Joseph</a>
+                </div> <!--close sharlin-->
+                
+                <div class= "containerNav">
+                  <a class="navbar-brand" href="index.html">About |</a>
+                  <a class="navbar-brand" href="contact.html">Contact  |</a>
+                  <a class="navbar-brand" href="portfolio.html">Portfolio</a>
+                </div> <!--close containerNav-->
+                </nav>
+      
+        </header> <!--close container-->
+  
+     <div class="container2">
+       <div class="col-12 text-info ContactMe">
+         <h3 class="font-weight-bolder">Contact Me</h3>
+      </div> <!--close contact me-->
+       <form>
+         <div class="form-group">
+           <label for="name">Name</label>
+           <input type="text" class="form-control" placeholder="Jane Doe" />
+         </div>
+         <div class="form-group">
+           <label for="email">Email address</label>
+           <input
+             type="email"
+             class="form-control"
+             placeholder="email@yahoo.com"
+           />
+         </div>
+         <div class="form-group">
+           <label for="exampleInputPassword1">Password</label>
+           <input
+             type="password"
+             class="form-control"
+             id="exampleInputPassword1"
+             placeholder=""
+           />
+         </div>
+         <div class="form-group">
+           <label for="message">Message</label>
+           <textarea
+             class="form-control"
+             id="exampleFormControlTextarea1"
+             rows="3"
+           ></textarea>
+         </div>
+         <button type="submit" class="btn btn-info">Submit</button>
+       </form>
+     </div>
 
-  <header id="masthead">
-    <div class="container1">
-        <header class="masthead text-center">
-            <div class="row">
-                <div class="col-1"></div>
-                <div class="col-5 p-3 mb-2 bg-info text-white">Sharlin Joseph</div>
-                <div class="col-2 text-right">About |</div>
-                <div class="col-2 portfolio text-left">Portfolio</div>
-                <div class="col-2 contact text-left">| Contact</div>
-            </div> <!--close row-->
-    
-          <!--delete later after finding href-->
-    
-          <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a href="index.html" id="logo">Sharlin Joseph</a>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav> close nav--> 
-    
-    
-        </div> <!--close header-->
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Contact</h1>
-
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-      </form>
-
-    </section>
-
-  </div>
-
-  <footer>
-    <div class="container3">
-        <nav class="navbar fixed-bottom p-3 bg-secondary text-white justify-content-center"> Copyright &copy;
-        </nav>  
-    </div> <!--close container-->
-  </footer> <!--close footer-->
-</body>
-
-</html>
+     <footer>
+        <div class="container3">
+            <nav class="navbar fixed-bottom p-3 bg-secondary text-white justify-content-center border-top border-info"> Copyright &copy;
+            </nav>  
+        </div> <!--close container3-->
+      </footer> <!--close footer-->
+    </div> <!--containerfull-->
+  
+     <!-- Optional JavaScript -->
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script
+       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+       crossorigin="anonymous"
+     ></script>
+     <script
+       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+       crossorigin="anonymous"
+     ></script>
+     <script
+       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+       crossorigin="anonymous"
+     ></script>
+   </body>
+  </html>

@@ -5,74 +5,163 @@
   <meta charset="UTF-8">
   <title>Portfolio | Your Name</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <style>
+  /* NavBar style */
+
+     .containerNav {
+        margin-right: 18%;
+        }
+    .sharlin {
+        margin-left: 15%;
+        font-size: 42px !important;
+        }
+
+    .customShar {
+        font-size: xx-large !important;
+        }
+    .navbar-brand {
+        font-size: large;
+        }
+    .sharlin {
+      font-family:'Georgia', Times, Times New Roman, serif;
+    }
+
+    .Portfolio {
+      font-family:'Georgia', Times, Times New Roman, serif;
+      margin-left: -2%;
+      font-size:medium !important;
+      }
+
+    .main-section{
+      margin-left: 16%;
+      margin-top: 1.5%;
+      margin-right: 16%;
+      width: 69.6%;
+    }
+    
+    .container2 {
+      margin-left: -3%;
+      margin-right: -16%;
+    }
+
+    .img2 {
+      padding-left: 0%;
+      margin-left: -64%;
+    }
+
+    .img3 {
+      padding-top: 6%;
+      padding-left: 8%;
+      
+    }
+    .img4 {
+      padding-top: 6%;
+      margin-left: -7%;
+    }
+    .img5 {
+      padding-left: 19%;
+      padding-top: 25%;
+      margin-left: 37%;
+      
+    }
+
+      
+  /*Footer style */
+  .border-top {
+    border-top: 7px solid #0d99ac!important;
+}
+  </style>
+
 </head>
 
+
 <body>
+    <div class="containerfull">
+        <div class="container1">
+          <header class="masthead text-center">
+              <nav class="navbar navbar-light bg-light">
+                <div class= sharlin>
+                  <a class="navbar-brand text-white p-3 bg-info font-weight-bolder customShar" href="index.html">Sharlin Joseph</a>
+                </div> <!--close sharlin-->
+                
+                <div class= "containerNav">
+                  <a class="navbar-brand" href="index.html">About |</a>
+                  <a class="navbar-brand" href="contact.html">Contact   |</a>
+                  <a class="navbar-brand" href="portfolio.html">Portfolio</a>
+                </div> <!--close containerNav-->
+                </nav>
+      
+        </header> <!--close container-->
 
-  <header id="masthead">
-    <div class="container1">
-        <header class="masthead text-center">
-            <div class="row">
-                <div class="col-1"></div>
-                <div class="col-5 p-3 mb-2 bg-info text-white">Sharlin Joseph</div>
-                <div class="col-2 text-right">About |</div>
-                <div class="col-2 portfolio text-left">Portfolio</div>
-                <div class="col-2 contact text-left">| Contact</div>
-            </div> <!--close row-->
-    
-          <!--delete later after finding href-->
-    
-          <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a href="index.html" id="logo">Sharlin Joseph</a>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav> close nav--> 
-    
-    
-        </div> <!--close header-->
-  </header>
+        <div class="container2">
+            <section class="main-section">
+                <div class="col-12 text-info Portfolio">
+                    <h3 class="font-weight-bolder">Portfolio</h3>
+                 </div> <!--close portfolio-->
+            
+                 <div class="row">
+                    <div class="col-md-4">
+                        <img  src="http://lorempixel.com/output/sports-h-c-140-150-2.jpg" alt="test" class="img-responsive img1"   />
+                      </div>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
+                    <div class="col-md-4">
+                        <img src="http://lorempixel.com/output/sports-h-c-140-150-3.jpg" alt="test" class="img-responsive img2" />
+                      </div>  
+                    <div class="col-md-4">
+                    </div> <!--close row1-->
 
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+                  <div class="row">
+                        <div class="col-md-4">
+                            <img src="http://lorempixel.com/output/sports-h-c-140-150-9.jpg" alt="test"  class="img-responsive img3"  />
+                         </div>
+                        <div class="col-md-4">
+                            <img src="http://lorempixel.com/output/sports-h-c-140-150-8.jpg" alt="test" class="img-responsive img4" />  
+                          </div>
+                          <div class="col-md-4">
+                          </div> <!--close row2-->    
+                     
+                  <div class="row">
+                            <div class="col-md-4">
+                                <img src="http://lorempixel.com/output/sports-h-c-140-150-2.jpg" alt="test" class="img-responsive img5"/>
+                              </div>
+                            <div class="col-md-4">
+                            </div>
+                            <div class="col-md-4">
+                            </div> <!--close row3-->    
+                 
+        
+            </section> <!--close main section-->
+        
+          </div> <!--close container 2-->
+        
 
-        <h3>Word Guess</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
 
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
-      </div>
-
-    </section>
-
-  </div>
-
-  <footer>
+        
+   <footer>
     <div class="container3">
-        <nav class="navbar fixed-bottom p-3 bg-secondary text-white justify-content-center"> Copyright &copy;
+        <nav class="navbar fixed-bottom p-3 bg-secondary text-white justify-content-center border-top border-info"> Copyright &copy;
         </nav>  
-    </div> <!--close container-->
+    </div> <!--close container3-->
   </footer> <!--close footer-->
-</body>
 
-</html>
+          <!-- Footer -->
+          <!-- Optional JavaScript -->
+          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+          <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+          ></script>
+          <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"
+          ></script>
+          <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"
+          ></script>
+        </body>
+      </html>
